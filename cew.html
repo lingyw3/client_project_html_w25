@@ -3,61 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page 1</title>
+    <title>CEW+</title>
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
     <header>
-            <a href = "https://lingyw3.github.io/client_project_html_w25/index.html">Skip to Main Content</a>
+        <a href="#main" class="skip-link">Skip to Main Content</a>
         <nav>
             <ul>
-                <li><a href = "index.html">Home</a></li>
-                <li><a href = "first_gen.html">First Gen</a></li>
-                <li><a href = "food_pantry.html">Food Pantry</a></li>
-                <li><a href = "cew.html">CEW+</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="first_gen.html">First Gen</a></li>
+                <li><a href="food_pantry.html">Food Pantry</a></li>
+                <li><a href="cew.html" class="active">CEW+</a></li>
             </ul>
         </nav>
         <h1>CEW+</h1>
         <h2>No matter where you’re from, you belong here.</h2>
-        <h3>U-M CEW+ Potential Made Possible</h3>
-
+        <h3>U-M CEW+ – Potential Made Possible</h3>
     </header>
-    <main>
-        <div>
-            <p>At the University of Michigan School of Information (UMSI), we are committed to supporting our students' academic success by offering a wide array of resources and services. Our academic advising team provides personalized guidance to help you navigate your curriculum, select courses, and address any academic challenges or questions you may encounter during your studies. UMSI students also have access to the extensive collections and study spaces within the University Library system, offering both digital and physical resources essential for research and coursework. Additionally, our specialized tutoring services and the UMSI Writing Center are available to support you in mastering complex subjects and enhancing your written communication skills. By utilizing these academic resources, UMSI students can thrive in their studies and achieve their educational goals. </p>
 
+    <main id="main" class="cew-grid">
+
+        <div class="intro-section">
+            <p>At the University of Michigan School of Information (UMSI), we are committed to supporting our students' academic success by offering a wide array of resources and services. Our academic advising team provides personalized guidance to help you navigate your curriculum, select courses, and address any academic challenges or questions you may encounter during your studies. </p>
+            <p>UMSI students also have access to the extensive collections and study spaces within the University Library system, offering both digital and physical resources essential for research and coursework. </p>
+            <p>Additionally, our specialized tutoring services and the UMSI Writing Center are available to support you in mastering complex subjects and enhancing your written communication skills. By utilizing these academic resources, UMSI students can thrive in their studies and achieve their educational goals.</p>
         </div>
 
-        <h4>What CEW+ Offers</h4>
-        <ul>
-          <li><strong>One-on-One Counseling:</strong> Personalized career and educational counseling for students at all stages.</li>
-          <li><strong>Scholarships & Emergency Funding:</strong> Financial assistance for continuing and nontraditional students.</li>
-          <li><strong>Workshops & Webinars:</strong> Topics include career planning, stress management, and graduate school applications.</li>
-          <li><strong>Academic Support:</strong> Writing support, advising, and research grant assistance.</li>
-        </ul>
+        <div class="resources-section grid-two-col">
+            <article>
+                <h4>One-on-One Counseling</h4>
+                <p>Personalized career and educational counseling for students at all stages.</p>
+            </article>
+            <article>
+                <h4>Scholarships & Emergency Funding</h4>
+                <p>Financial assistance for continuing and nontraditional students.</p>
+            </article>
+            <article>
+                <h4>Workshops & Webinars</h4>
+                <p>Topics include career planning, stress management, and graduate school applications.</p>
+            </article>
+            <article>
+                <h4>Academic Support</h4>
+                <p>Writing support, advising, and research grant assistance.</p>
+            </article>
+        </div>
 
-        <img src="images/cew1.jpg" alt="CEW+ Graduates" width="500" height="400">
-        <img src="images/cew2.jpg" alt="CEW+ classroom" width="500" height="400">
-        <h4>📺 Watch: CEW+ Student Stories</h4>
-        <p>Discover how CEW+ has transformed student lives at U-M.</p>
-        <p><a href="https://www.youtube.com/watch?v=hvVKuuCjpK4" target="_blank">Watch Youtube Vedio: Welcome to CEW+ !</a></p>
+        <div class="media-section grid-two-col">
+            <figure>
+                <img src="images/cew1.jpg" alt="CEW+ Graduates at a recognition event">
+                <figcaption>CEW+ Graduates at Celebration Ceremony</figcaption>
+            </figure>
+            <figure>
+                <img src="images/cew2.jpg" alt="Students in a CEW+ academic workshop">
+                <figcaption>CEW+ Workshop in Progress</figcaption>
+            </figure>
+        </div>
 
-        <p>Whether you’re balancing work and study, facing a life transition, or just looking for extra support, CEW+ is here to empower your success every step of the way.</p>
+        <div class="video-section">
+            <h4>📺 Watch: CEW+ Student Stories</h4>
+            <p>Discover how CEW+ has transformed student lives at U-M.</p>
+            <p><a href="https://www.youtube.com/watch?v=hvVKuuCjpK4" target="_blank"> Watch YouTube Video: Welcome to CEW+</a></p>
+        </div>
 
-        <div>Check more information at the UM <a href="https://www.cew.umich.edu/">CEW+ </a>Website.</div>
-            
-            <!-- Jackie Wolf -->
-    
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div class="conclusion-section">
+            <p>Whether you’re balancing work and study, facing a life transition, or just looking for extra support, CEW+ is here to empower your success every step of the way.</p>
+            <p>Check more information at the <a href="https://www.cew.umich.edu/" target="_blank">UM CEW+ Website</a>.</p>
+        </div>
+
     </main>
-      
-    <footer>
-        <p>MSI Academic Advising | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising </a></p>
-    </footer>
-    
-</body>
 
+    <footer>
+        <p>MSI Academic Advising | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising</a></p>
+    </footer>
+
+</body>
 </html>

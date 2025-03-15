@@ -96,10 +96,15 @@ h1 {
 h2 {
     font-size: 1.5rem;
     margin-top: 1.5rem;
-    color: #00274C;
+    color: #FFCB05;
 }
+
+.index-page main h2 {
+    color: #00274C; /* Dark Blue (UMich Blue) */
+}
+
   
-h3, h4 {
+h3 {
     font-size: 1.25rem;
     margin-top: 1rem;
     color: #00274C;

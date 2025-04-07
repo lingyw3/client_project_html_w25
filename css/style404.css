@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #00274C; /* Michigan dark blue */
+    color: #FFCB05;            /* Maize yellow */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    padding: 0 1rem;
+  }
+  
+  a {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #FFCB05;
+    color: #00274C;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+  }
+  
+  a:hover {
+    background-color: #f5b700;
+  }
+  
